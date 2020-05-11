@@ -1,0 +1,18 @@
+11/05/2020 07:17:29 PM - __main__ - INFO - Alterada a senha!!
+11/05/2020 07:17:29 PM - __main__ - WARNING - Tentativa de acesso de inválida
+11/05/2020 07:17:29 PM - __main__ - ERROR - Usuario id não existe: usuario_id=0
+11/05/2020 07:17:29 PM - __main__ - ERROR - Error:
+Traceback (most recent call last):
+  File "<ipython-input-3-092b10797e91>", line 36, in abrir_arquivo_usuario
+    open('/path/to/does/not/exist', 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/does/not/exist'
+11/05/2020 07:17:29 PM - __main__ - DEBUG - 0 iterator,item=1
+11/05/2020 07:17:29 PM - __main__ - DEBUG - 1 iterator,item=2
+11/05/2020 07:17:29 PM - __main__ - DEBUG - 2 iterator,item=3
+11/05/2020 07:17:29 PM - __main__ - DEBUG - 3 iterator,item=4
+11/05/2020 07:17:29 PM - logging_mylog - WARNING - My Warning
+11/05/2020 07:17:29 PM - logging_mylog - ERROR - Error:User Exception
+NoneType: None
+11/05/2020 07:17:29 PM - logging_hello - INFO - Mensagem informativa
+11/05/2020 07:17:29 PM - logging_hello - DEBUG - Mensagem de debug
+11/05/2020 07:17:29 PM - logging_hello - ERROR - Um erro aconteceu.
